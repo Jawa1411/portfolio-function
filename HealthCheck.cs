@@ -96,12 +96,12 @@ namespace Portfolio.Functions
                             {
                                 _logger.LogInformation($"Restart status: {azureManagementResponse.StatusCode}");
                                 _logger.LogError("Failed to restart appservice.");
-                                failedCalls = 0;
                             }
                             else
                             {
                                 _logger.LogInformation("Appservice restarted successfully.");
                             }
+                            failedCalls = 0;
                         }
                     }
                     else
