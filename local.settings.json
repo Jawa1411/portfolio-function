@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    // "BaseURL": "http://localhost:5279"
+    "BaseURL": "https://jawahar-portfolio-api.azurewebsites.net",
+    "AzureLoginBaseURL": "https://login.microsoftonline.com:443",
+    "TenantId": "fb41ab8e-5106-4679-96fc-68e9385ae931",
+    "ClientId": "7167f708-0b5c-4b1b-b1c8-f36cda577591",
+    "ClientSecret": "5-L8Q~oCUYNT3U8_VOJALraJhGXBLIS.5Qkp4cdC",
+    "AzureManagementBaseURL": "https://management.azure.com",
+    "SubscriptionId": "3aa88baa-861d-493f-87fb-4c2e0ee69ea5",
+    "ResourceGroupName": "DotnetApps",
+    "AppServiceName": "jawahar-portfolio-api"
+  }
+}
